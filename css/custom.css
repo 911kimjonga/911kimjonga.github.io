@@ -1,0 +1,56 @@
+img.stack_icon {
+    max-width: 36px;
+}
+
+img.footer_icon {
+    max-width: 36px;
+}
+
+div.post-link {
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    z-index: 2000;
+}
+
+img.headshot {
+    max-width: 100%;
+    max-height: auto;
+}
+
+section#introduce {
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+}
+
+section#stack {
+    margin-bottom: 9rem;
+}
+
+.project-site-link a:link {
+    color: #303030;
+    text-decoration: none;
+}
+
+.project-site-link a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.project-site-link a:visited {
+    color: #303030;
+    text-decoration: none;
+}
+
+.project-site-link a:active {
+    color: #303030;
+    text-decoration: none;
+}
+
+img.project-site-image{
+    border-color: #00000026;
+    border-color;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+}
