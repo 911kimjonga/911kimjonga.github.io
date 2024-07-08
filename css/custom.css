@@ -6,7 +6,7 @@ img.footer_icon {
     max-width: 36px;
 }
 
-div.post-link {
+div.project-link {
     position: fixed;
     right: 100px;
     bottom: 100px;
@@ -18,7 +18,7 @@ img.headshot {
     max-height: auto;
 }
 
-section#introduce {
+    section#introduce {
     margin-top: 3rem;
     margin-bottom: 7rem;
 }
