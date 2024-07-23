@@ -10,13 +10,13 @@ img.footer_icon {
 
 div.project-link {
   position: fixed;
-  right: 96px;
-  bottom: 96px;
+  right: 84px;
+  bottom: 84px;
   z-index: 2000;
 }
 
 div.project-link img {
-  max-width: 128px;
+  max-width: 116px;
 }
 
 @media (max-width: 992px) {
@@ -38,8 +38,8 @@ img.headshot {
 }
 
 section#introduce {
-  margin-top: 3rem;
-  margin-bottom: 7rem;
+  margin-top: 10vh;
+  margin-bottom: 12vh;
 }
 
 section#stack {

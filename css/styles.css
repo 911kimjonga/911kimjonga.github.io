@@ -12747,15 +12747,15 @@ p {
 }
 
 header.masthead {
-  padding-top: 38.5vh;
-  padding-bottom: 38.5vh;
+  padding-top: 40vh;
+  padding-bottom: 40vh;
   text-align: center;
   color: #000;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  background-image: url(/assets/img/header/header_project_management_1.jpg);
+  background-image: url('https://jw-prdt-bucket.s3.ap-northeast-2.amazonaws.com/header_project_management_1-1bb5140f-322c-4e8e-94d6-fe0c7171b2c6.jpg');
 }
 
 header.masthead .masthead-subheading {
@@ -12774,8 +12774,8 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 36.5vh;
-    padding-bottom: 36.5vh;
+    padding-top: 38vh;
+    padding-bottom: 38vh;
   }
 
   header.masthead .masthead-subheading {
@@ -13169,7 +13169,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-image: url("https://jw-prdt-bucket.s3.ap-northeast-2.amazonaws.com/map-image-764c8028-0631-4a72-8bdc-f8e5fccdb9ef.png");
   background-repeat: no-repeat;
   background-position: center;
 }
