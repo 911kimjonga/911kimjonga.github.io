@@ -70,27 +70,71 @@
                 <h3 class="section-subheading text-muted">안녕하십니까! 저 김종원을 소개합니다.</h3>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-4 mx-3">
-                    <img class="headshot" src="images/id_image.jpg"></img>
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-5 mx-3">
-                    <div class="mb-5">
-                        <h2 class="my-3">김종원</h2>
-                        <h6 class="my-3 text-muted">Back-end (Java/Spring) 개발자가 되고 싶습니다.</h6>
+                <div id="id-image" class="col-lg-5 mx-3">
+                    <div class="d-flex justify-content-center">
+                        <img class="headshot" src="images/id_image.jpg"></img>
                     </div>
-                    <div>
-                        <p><i class="fa-solid fa-calendar-days fa-2xl mx-1" style="max-width: 16px;"></i>생년월일 : 1992.
-                            12. 26
-                            (양) </p>
-                        <p><i class="fa-solid fa-school fa-2xl mx-1" style="max-width: 16px;"></i>학력 : 경희대학교 사회기반시스템공학과
-                            졸업
-                        </p>
-                        <p><i class="fa-regular fa-envelope fa-2xl mx-1" style="max-width: 16px;"></i>이메일 :
-                            911kimjonga@gmail.com</p>
-                        <p><i class="fab fa-github fa-2xl mx-1" style="max-width: 16px;"></i>Github : <a
-                                href="https://github.com/911kimjonga">
-                                https://github.com/911kimjonga</a></p>
+                </div>
+                <div class="col-lg-5 py-3">
+                    <div class="row">
+                        <div class="col align-self-center my-2">
+                            <h2 class="my-3">김종원</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col align-self-center my-1">
+                            <h6 class="my-3 text-muted">Back-end (Java/Spring) 개발자가 되고 싶습니다.</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col align-self-center my-4">
+                            <div class="row my-3">
+                                <div class="col-md-1 align-self-center">
+                                    <i class="fa-solid fa-calendar-days fa-2xl" style="max-width: 16px;"></i>
+                                </div>
+                                <div class="col-md-3 align-self-center">
+                                    생년월일
+                                </div>
+                                <div class="col-md align-self-center">
+                                    1992. 12. 26.
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <div class="col-md-1 align-self-center">
+                                    <i class="fa-solid fa-school fa-2xl" style="max-width: 16px;"></i>
+                                </div>
+                                <div class="col-md-3 align-self-center">
+                                    학력
+                                </div>
+                                <div class="col-md align-self-center">
+                                    경희대학교 사회기반시스템공학과 졸업
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <div class="col-md-1 align-self-center">
+                                    <i class="fa-regular fa-envelope fa-2xl" style="max-width: 16px;"></i>
+                                </div>
+                                <div class="col-md-3 align-self-center">
+                                    이메일
+                                </div>
+                                <div class="col-md align-self-center">
+                                    911kimjonga@gmail.com
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <div class="col-md-1 align-self-center">
+                                    <i class="fab fa-github fa-2xl" style="max-width: 16px;"></i>
+                                </div>
+                                <div class="col-md-3 align-self-center">
+                                    Github
+                                </div>
+                                <div class="col-md align-self-center">
+                                    <a href="https://github.com/911kimjonga">
+                                        https://github.com/911kimjonga
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -104,7 +148,7 @@
                 <h2 class="section-heading text-uppercase">Stack</h2>
                 <h3 class="section-subheading text-muted">저의 기술 스택입니다.</h3>
             </div>
-            <div class='row'>
+            <div class='row justify-content-center'>
                 <div class='col-lg-6'>
                     <p class="m-0"><img class="stack_icon mx-2" src="images/icon/html5_48.png"></img>HTML</p>
                     <div class='progress mb-4' role='progressbar' aria-valuenow='99' aria-valuemin='0'
@@ -208,21 +252,6 @@
                     </div>
                 </li>
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/about/database.png"
-                            alt="..." /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4 class="subheading">Java - JDBC</h4>
-                            <h6>Account Manager Program Expansion</h6>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">기존 계좌 관리 어플리케이션에서</p>
-                            <p class="text-muted">Stream API를 이용한 계좌정보 파일 입출력 기능 및</p>
-                            <p class="text-muted">JDBC API를 이용한 계좌정보 데이터베이스 입출력 기능 확장 </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/about/javascript.png"
                             alt="..." /></div>
                     <div class="timeline-panel">
@@ -233,6 +262,21 @@
                         <div class="timeline-body">
                             <p class="text-muted">JavaScript를 이용,</p>
                             <p class="text-muted">학생 성적 관리 웹 어플리케이션 구축</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/about/database.png"
+                            alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="subheading">Database</h4>
+                            <h6>Database Modelling</h6>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Usecase 및 Domain Modelling을 이용한</p>
+                            <p class="text-muted">Database 모델링 실습 및 실제 Database 구축</p>
+                            <p class="text-muted">JDBC API를 이용한 계좌정보 데이터베이스 입출력 기능 확장</p>
                         </div>
                     </div>
                 </li>
@@ -289,8 +333,8 @@
                 <h4 class="section-heading text-uppercase">LETS</h4>
                 <h3 class="section-subheading text-muted">스터디 룸 카페 예약 및 스터디 그룹 관리</h3>
             </div>
-            <div class="row align-items-center">
-                <div class="col-6">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
                     <div class="project-item">
                         <a class="project-link" target="_blank" href="http://3.34.138.52/member/login">
                             <div class="project-hover">
@@ -304,7 +348,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6">
                     <div class="project-item">
                         <a class="project-link" target="_blank" href="http://3.34.138.52/admin/login">
                             <div class="project-hover">
@@ -318,9 +362,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="align-items-center mb-5">
-                        <div class="project-item" style="max-width: 55%;">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 mb-5">
+                        <div class="project-item">
                             <a class="project-link" data-bs-toggle="modal" href="#project-modal1">
                                 <div class="project-hover">
                                     <div class="project-hover-content"><i class="fas fa-plus fa-3x"></i></div>
@@ -347,8 +391,8 @@
                 <h4 class="section-heading text-uppercase">C-ALL</h4>
                 <h3 class="section-subheading text-muted">안경 판매 전문 쇼핑몰 웹사이트</h3>
             </div>
-            <div class="row">
-                <div class="align-items-center mb-5">
+            <div class="row justify-content-center">
+                <div class="col-md-8 mb-5">
                     <div class="project-item">
                         <a class="project-link" data-bs-toggle="modal" href="#project-modal2">
                             <div class="project-hover">
